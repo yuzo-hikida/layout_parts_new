@@ -1,5 +1,99 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* q7-1 */
+.box-a {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
 
+.box-b {
+  float: right;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+/* q7-2 */
+.parent {
+  display: table;
+}
+
+.child {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.a {
+  padding-right: 0;
+}
+
+.b {
+  padding-left: 50px;
+}
+
+/* q7-3 */
+.parent-q7 {
+  font-size: 0;
+}
+.box-e {
+  display: inline-block; 
+  box-sizing: border-box;
+  width: 225px;
+  margin-left: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.box-e:first-child {
+  margin-left: 0;
+}
+/*q7-4*/
+.flex-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.child-a {
+  width: 225px;
+  box-sizing: border-box;
+
+}
+/*q7-5*/
+.parent__q7__box {
+  font-size: 0;
+}
+
+.child-b {
+  display:inline-block;
+  font-size: 16px;
+  width: 300px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.child-c {
+  display:inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px; /*最初padding-left: 300px;でmargin-left: -300;に揃えていたがなんで50足したらうまくいくのか*/
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.inliner-a {
+  margin-left: 300px;
+}
 /* 回答はここに書いてね */
