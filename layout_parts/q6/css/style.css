@@ -21,28 +21,28 @@
 }
 
 /* q6-2 */
-.parent {
+.table_box {
   display: table;
 }
 
-.table_box_parent {
+.table_box_outer {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-.table_box {
+.table_box_inner {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.flex_box_parent {
+.flex_box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flex_box {
+.flex_box_inner {
   background-color: #fff;
   padding: 10px;
 }

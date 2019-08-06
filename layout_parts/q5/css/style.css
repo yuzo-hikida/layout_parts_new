@@ -9,10 +9,6 @@
   position: relative;
 }
 
-.main_box {
-  position: absolute;
-}
-
 .common_box {
   width: 100px;
   height: 100px;
@@ -20,6 +16,8 @@
   font-weight: bold;
   text-align: center;
   line-height: 100px;
+  position: absolute;
+
 }
 
 .one {
