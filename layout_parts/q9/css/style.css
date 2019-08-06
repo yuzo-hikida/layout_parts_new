@@ -8,24 +8,18 @@
   overflow: hidden; /* 画像拡大時にはみ出た部分を隠す */
   position: relative;
   margin: 0 auto;
-  transition: all 0.5s;
-  }
-
-.q9__box__photo {
-  transition: all 0.5s;
-}
-
-.q9__box__photo:hover {
-    transition: all 0.5s ease-out;
-    }
-
-.q9__box:hover .q9__box__photo {
-  transform: scale(1.5,1.5);
   cursor: pointer;
   }
 
+.q9__box__photo {
+  transition: all 0.5s;/*hoverした時、動くから*/
+}
+
+.q9__box:hover .q9__box__photo {
+  transform: scale(1.5,1.5);
+  }
+
 .q9__box:hover .mask {
-  transition: all 0.5s ease-out;
   bottom: 0;
   }
 
@@ -41,7 +35,6 @@
   padding: 20px;
   box-sizing: border-box;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 8));
-  transition: all 0.5s ease-out;
 }
 
 .mask {
@@ -49,11 +42,7 @@
   bottom: -100%;
   width: 100%;
   height: 100%;
-  transition: all 0.5s ease-out;
-}
-
-.q9__box:hover { /*マウスオーバーした時にp要素に行くと写真が元の大きさに戻る*/
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;/*hoverした時動くので*/
 }
 
   /*q9-2*/

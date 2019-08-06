@@ -5,20 +5,14 @@
   text-align: center;/*親要素を作った*/
 }
 
-.box-a {
+.text_align_box {
   width: 90px;
   background-color: #e6f2ff;
   display: inline-block;
   padding: 10px 0;/*marginを消してinline-blockを子要素に入れた*/
 }
 
-.outer_margin {
-  /* margin: 0 auto;
-  text-align: center; */
-
-}
-
-.box-b {
+.margin_box {
   padding: 10px 0;
   margin: 0 auto;
   text-align: center;
@@ -31,32 +25,32 @@
   display: table;
 }
 
-.q6_margin_box {
+.table_box_parent {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-.box-c {
+.table_box {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.parent-q {
+.flex_box_parent {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.box-d {
+.flex_box {
   background-color: #fff;
   padding: 10px;
 }
-.foot_box {
+.bottom_box {
   position: relative;
 }
 
-.inner_box {
+.inner_box_left {
   position: absolute;
   top: 0;
   right: 0;

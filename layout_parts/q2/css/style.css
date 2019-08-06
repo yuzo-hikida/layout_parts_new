@@ -14,12 +14,12 @@
   padding: 20px;
 }
 
-.balloon__photo {
+.left__photo {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.light__photo {
+.right__photo {
   float: right;
   margin: 0 0 10px 20px;
 }

@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.main_box {
+  position: absolute;
+}
+
 .common_box {
   width: 100px;
   height: 100px;
@@ -19,7 +23,6 @@
 }
 
 .one {
-  position: absolute;
   top: 40px;
   left:200px;
   background-color: #ffefd3;
@@ -27,7 +30,6 @@
 }
 
 .two {
-  position: absolute;
   top: 120px;
   left: 280px;
   background-color: #7084de;
@@ -35,7 +37,6 @@
 }
 
 .three {
-  position: absolute;
   top: 200px;
   left: 360px;
   background-color: #d0ecea;
@@ -43,7 +44,6 @@
 }
 
 .four {
-  position: absolute;
   top: 280px;
   left: 280px;
   background-color: #8b7a5e;
@@ -51,7 +51,6 @@
 }
 
 .five {
-  position: absolute;
   top: 360px;
   left: 200px;
   background-color: #9fd6d2;
@@ -59,7 +58,6 @@
 }
 
 .six {
-  position: absolute;
   top: 280px;
   left: 120px;
   background-color: #fffee4;
@@ -67,7 +65,6 @@
 }
 
 .seven {
-  position: absolute;
   top: 200px;
   left: 40px;
   background-color: #deae70;
@@ -75,7 +72,6 @@
 }
 
 .eight {
-  position: absolute;
   top: 120px;
   left: 120px;
   background-color: #de70cf;

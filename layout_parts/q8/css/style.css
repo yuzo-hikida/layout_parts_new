@@ -72,15 +72,18 @@
   content: "";
   clear: both;
 }
+
 .ul {
   list-style: none;
 }
+
 .q8__form {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ecf1f2;
 }
+
 .q8__form__title {
   position: relative;
   margin-bottom: 20px;
@@ -122,10 +125,11 @@
   text-align: right;
 }
 
-.clearfix {
+.q8__main__items li {
   margin-top: 20px;
 }
-.clearfix:first-child {
+
+.q8__main__items li:first-child {
   margin-top: 0;
 }
 
@@ -140,6 +144,7 @@
   float: right;
   width: 180px;
 }
+
 .is-required {
   color: red;
 }
@@ -313,4 +318,5 @@ position: relative;
   color: #00bcd4;
   background-color: #fff;
 }
+
 /* 回答はここに書いてね */
