@@ -1,15 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.parent-a {
-  font-size: 0px;
-}
 
 .common {
   display: inline-block;
   background-color: #00bcd4;
   color: #fff;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .error {
@@ -36,108 +33,36 @@
   cursor: pointer;
   margin-left: 10px;
 }
-.common-a {
+
+.small_box {
   line-height: 26px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 3px;
   font-size: 16px;
+  margin-left: 10px;
 }
 
-.error-a {
-  line-height: 26px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-.disabled-a {
-  line-height: 26px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-.shadow-a {
-  line-height: 26px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-.parent-b {
-  font-size:0px;
-}
-
-.common-b {
+.middle_box {
   line-height: 32px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
   font-size:20px;
+  margin-left: 10px;
 }
 
-.error-b {
-  line-height: 32px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-  font-size:20px;
-}
-
-.disabled-b {
-  line-height: 32px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-  font-size:20px;
-}
-
-.shadow-b {
-  line-height: 32px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-  font-size:20px;
-}
-
-.parent-c {
-  font-size:0px;
-}
-
-.common-c {
+.large_box {
   line-height: 38px;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 7px;
   font-size:24px;
+  margin-left: 10px;
 }
 
-.error-c {
-  line-height: 38px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 7px;
-  font-size:24px;
-}
-
-.disabled-c {
-  line-height: 38px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 7px;
-  font-size:24px;
-}
-
-.shadow-c {
-  line-height: 38px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 7px;
-  font-size:24px;
+.common {
+  margin-left: 0;
 }
 
 /* q8-2フォーム */
@@ -262,6 +187,7 @@
   border-radius: 50%;
   content: '';
 }
+
 .q8__radio__btn:checked + .q8__radio__text:after {
   position: absolute;
   top: 50%;
@@ -345,10 +271,10 @@ position: relative;
   transform: rotate(45deg);
   content: "";
 }
+
 .q8__checkbox__btn {
   display: none;
 }
-
 
 .q8__main__bottom {
   text-align: right;
@@ -366,9 +292,6 @@ position: relative;
 
 .q8__side__text {
   width: 380px;
-}
-
-.q8__side__text {
   height: 203px;
   padding: 10px;
   border-radius: 3px;
@@ -378,6 +301,16 @@ position: relative;
   resize: none;
 }
 
+.q8__input:focus {
+  box-shadow: 0 0 10px #00bcd4;
+}
 
+.q8__side__text:focus {
+  box-shadow: 0 0 10px #00bcd4;
+}
 
+.q8__main__buttom:active {
+  color: #00bcd4;
+  background-color: #fff;
+}
 /* 回答はここに書いてね */

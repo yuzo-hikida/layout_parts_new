@@ -1,14 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.sample {
+.kcal__table {
   table-layout: fixed;
   width: 100%;
-  border: solid #dedede 1px;
 }
 
 
-.sample th {
+.kcal__table th {
   border: solid #dedede 1px;
   font-size: 18px;
   line-height: 26px;
@@ -18,7 +17,7 @@
 
 }
 
-.sample td {
+.kcal__table td {
   border: solid #dedede 1px;
   font-size: 16px;
   line-height: 22px;
@@ -27,11 +26,11 @@
 
 }
 
-.sample tr:nth-child(odd) {
+.kcal__table tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.sample tr:last-child {
+.kcal__table tr:last-child {
   border-top: dashed #000 2px;
 }
 

@@ -7,20 +7,16 @@
   clear: both;
 }
 /* q7-1 */
-.box-a {
+.floot_box {
   float: left;
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
-  margin: 0;
+  margin-left: 50px;
 }
 
-.box-b {
-  float: right;
-  width: 225px;
-  font-size: 16px;
-  box-sizing: border-box;
-  margin-left: 50px;
+.floot_box:first-child {
+  margin-left: 0;
 }
 
 /* q7-2 */
@@ -35,11 +31,7 @@
   font-size: 16px;
 }
 
-.a {
-  padding-right: 0;
-}
-
-.b {
+.child:last-child {
   padding-left: 50px;
 }
 
@@ -47,8 +39,9 @@
 .parent-q7 {
   font-size: 0;
 }
+
 .box-e {
-  display: inline-block; 
+  display: inline-block;
   box-sizing: border-box;
   width: 225px;
   margin-left: 50px;
@@ -83,6 +76,7 @@
   box-sizing: border-box;
   vertical-align: top;
 }
+
 .child-c {
   display:inline-block;
   font-size: 16px;
@@ -91,9 +85,5 @@
   padding-left: 350px; /*最初padding-left: 300px;でmargin-left: -300;に揃えていたがなんで50足したらうまくいくのか*/
   box-sizing: border-box;
   vertical-align: top;
-}
-
-.inliner-a {
-  margin-left: 300px;
 }
 /* 回答はここに書いてね */

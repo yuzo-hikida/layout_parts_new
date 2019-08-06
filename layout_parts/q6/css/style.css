@@ -1,26 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.outer {
+  text-align: center;/*親要素を作った*/
+}
 
 .box-a {
-  text-align: center;
   width: 90px;
   background-color: #e6f2ff;
-  /* display: block; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
+  display: inline-block;
+  padding: 10px 0;/*marginを消してinline-blockを子要素に入れた*/
+}
+
+.outer_margin {
+  /* margin: 0 auto;
+  text-align: center; */
+
 }
 
 .box-b {
-  width: 90px;
+  padding: 10px 0;
+  margin: 0 auto;
   text-align: center;
+  width: 90px;
   background-color: #e6f2ff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* q6-2 */
@@ -28,7 +31,7 @@
   display: table;
 }
 
-.q6__box {
+.q6_margin_box {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -49,11 +52,11 @@
   background-color: #fff;
   padding: 10px;
 }
-.oya {
+.foot_box {
   position: relative;
 }
 
-.kodomo {
+.inner_box {
   position: absolute;
   top: 0;
   right: 0;
@@ -62,11 +65,7 @@
   margin: auto;
 }
 
-.ooya {
-  position: relative;
-}
-
-.kkodomo {
+.inner_box_right {
   position: absolute;
   top: 50%;
   left: 50%;

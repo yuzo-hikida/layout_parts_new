@@ -22,9 +22,11 @@
   padding: 20px;
   margin-left: 20px;
 }
+
 .q1__content .q1__content__box:first-child {
   margin-left: 0 ;
 }
+
 .q1__content__text {
   font-size: 16px;
   line-height: 16px;
@@ -32,4 +34,5 @@
   border: 10px solid #022336;
   padding: 20px;
 }
+
 /* 回答はここに書いてね */
